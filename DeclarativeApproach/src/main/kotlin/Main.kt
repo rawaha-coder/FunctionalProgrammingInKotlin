@@ -17,4 +17,24 @@ fun main() {
 
     val waitOneSec = { Thread.sleep(1000) }
     println(chronometer(waitOneSec))
+
+    val result = double(square(10))
+    println(result)
+
+    println(squareAndDouble(10))
+
+    val squareDouble = ::square compose ::double
+
+    println(squareDouble(10))
+
+    println(impure(2))
+    println(impure(2))
+
+    addOneAndLog(2)
+    addOneAndLog(2)
+
+    val p = addOneAndLogPure(5)
+
+    println(p.second)
+
 }
