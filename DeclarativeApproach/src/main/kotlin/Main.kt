@@ -37,4 +37,22 @@ fun main() {
 
     println(p.second)
 
+    val v1 = strToIntOrNull("e")
+
+    println(v1)
+
+    val v2 = strToIntOrNull("33")
+
+    println(v2)
+
+    val v3 = strToIntResult("r")
+
+    println(v3)
+
+    val v4 = strToIntResult("45")
+
+    println(v4)
+
+
+
 }
