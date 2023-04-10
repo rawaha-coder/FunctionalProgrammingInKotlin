@@ -1,0 +1,1 @@
+typealias Fun<A,B> = (A)->B
